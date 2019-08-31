@@ -1,0 +1,99 @@
+/* ------------------------------------------
+	Page style - not required for forms
+------------------------------------------ */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+
+body {
+	font-size: .875rem;
+	line-height: 1.5rem;
+	font-family: Raleway, Arial, sans-serif;
+	color: #333;
+	background: #f9f9f9 url('../images/top-bg.jpg') center top no-repeat fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #000;
+}
+
+h2 {
+	margin: 0 0 30px;
+}
+
+h3 {
+	margin: 0 0 20px;
+}
+
+a,
+.btn-link {
+	color: #3fc0eb;
+}
+
+a:hover,
+.btn-link:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+.header h1 {
+	margin: 100px 0;
+	font-size: 3rem;
+	line-height: 3rem;
+	font-weight:900;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+	.header h1 span {
+		font-weight: 400;
+	}
+	
+.content {
+	margin-bottom: 50px;
+	padding: 50px 20px;
+	background: #fff;
+}
+
+.sidebar .navigation {
+	margin-bottom: 50px;
+	padding: 0;
+	list-style-type: none;
+	border-right: 3px solid #eee;
+}
+
+.sidebar .navigation > li + li {
+	margin: 0;
+}
+
+.sidebar .navigation li a  {
+	display: block;
+	padding: 10px 20px;
+	color: #333;
+}
+
+.sidebar .navigation > li.active > a,
+.sidebar .navigation > li > a:hover,
+.sidebar .navigation > li > a:focus {
+	color: #fff;
+	background: #4fd0fb;
+	box-shadow: 3px 0 0 #3fc0eb;
+}
+
+.sidebar .navigation li a .new {
+	position: absolute;
+	display: inline-block;
+	top: -2px;
+	margin: 0 5px;
+	padding: 5px 5px 3px;
+	font-size: 9px;
+	line-height: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	background: #f55;
+}
